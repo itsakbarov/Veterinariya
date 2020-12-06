@@ -9,6 +9,29 @@
 </head>
 
 <body>
+
+    <div class="overlay"></div>
+    <div class="modal">
+        <div class="modal-inner">
+            <a href="#" class="modal-x"><img src="./assets/images/x.svg" alt=""></a>
+            <div class="left">
+                <h3 class="left-title">Авторизация:</h3>
+                <a href="#" class="left-link">Войти через Google</a>
+                <a href="#" class="left-link facebook">Войти через Facebook</a>
+            </div>
+            <div class="right">
+                <h1 class="right-title">Задать вопрос</h1>
+                <form action="https://echo.htmlacademy.ru" method="GET">
+                    <input type="text" id="fname" class="name" name="name">
+                    <label class="fname-label" for="fname">Ваше имя</label>
+                    <textarea style="padding-top: 40px;" name="opsor" id="opros" cols="30"
+                        placeholder="Например: в каком возрасте можно прививать от бешенства?" rows="10"></textarea>
+                    <label class="opros-label" for="opros">Опишите Ваш вопрос.</label>
+                    <button type="submit" class="submit-btn">Отправить </button>
+                </form>
+            </div>
+        </div>
+    </div>
     <header class="site_header">
         <div class="header_inner ">
             <div class="header_top container">
@@ -26,17 +49,17 @@
             <div class="header_bottom">
                 <div class="container">
                     <div class="logo">
-                        <a href="index.html" class="logo_link"><img src="../images/logo.svg" alt="Logo image"
+                        <a href="index.html" class="logo_link"><img src="./assets/images/logo.svg" alt="Logo image"
                                 class="logo_img"></a>
                     </div>
                     <div class="navbar">
                         <a href="#" class="header_link" target="_blank">Главная</a>
                         <a href="#" class="header_link" target="_blank">О Клинике</a>
-                        <a href="#" class="header_link" target="_blank">Наши Услуги</a>
+                        <a href="/assets/pages/sevices.html" class="header_link" target="_blank">Наши Услуги</a>
                         <a href="#" class="header_link" target="_blank">Полезные Статьи</a>
                         <a href="#" class="header_link" target="_blank">FAQ</a>
-                        <a href="#" class="header_link" target="_blank">Контакты</a>
-                        <img src="../images/active.svg" alt="active icon" class="active">
+                        <a href="./assets/pages/contact.html" class="header_link" target="_blank">Контакты</a>
+                        <img src="./assets/images/active.svg" alt="active icon" class="active">
                     </div>
                     <div class="enquire btn">
                         <a href="javascript:void(0)" class="header_link pet_logo">Задать вопрос</a>
@@ -45,7 +68,6 @@
             </div>
         </div>
     </header>
-
     <section class="section-contact ">
         <div class="container">
             <div class="section-contact__top">
@@ -85,7 +107,10 @@
 
     <section class="contact-map">
         <div class="section-map__left">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3840.0402557640246!2d127.0372401498554!3d37.57916728155491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suz!2s!4v1607264786995!5m2!1suz!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3840.0402557640246!2d127.0372401498554!3d37.57916728155491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suz!2s!4v1607264786995!5m2!1suz!2s"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
         </div>
         <div class="section-map__right">
             <img src="../images/contact-home.jpg" alt="">

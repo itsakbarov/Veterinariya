@@ -1592,7 +1592,8 @@ iframe {
     top: 27.5%;
     transition: 0.4s ease all;
 }
-.modal input[type=text]:focus + label.fname-label  {
+
+.modal input[type=text]:focus+label.fname-label {
     top: 20%;
     color: #000;
     transform: translateX(0px);
@@ -1606,11 +1607,12 @@ iframe {
     transform: translateX(23px);
 }
 
-.modal textarea:focus + label.opros-label {
+.modal textarea:focus+label.opros-label {
     top: 34%;
     color: #000;
     transform: translateX(10px);
 }
+
 .modal .right .right-title {
     font-style: normal;
     font-weight: bold;
@@ -1619,7 +1621,8 @@ iframe {
     margin-bottom: 25px;
     color: #333333;
 }
-.modal textarea{
+
+.modal textarea {
     padding-top: 40px;
 }
 
@@ -1632,7 +1635,7 @@ iframe {
     outline: none;
     background: #000;
     padding: 14px 60px;
-border:2px solid transparent;
+    border: 2px solid transparent;
 
     background: #000000;
     color: #FFFFFF;
