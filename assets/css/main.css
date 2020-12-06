@@ -1124,6 +1124,12 @@ textarea:focus {
 
 }
 
+footer {
+    padding-top: 60px;
+    background: #F3F3F3;
+    border: 1px solid #EBEBEB;
+}
+
 .footer_inner {
     display: -webkit-box;
     display: -ms-flexbox;
