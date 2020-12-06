@@ -6,12 +6,9 @@
 */
 
 @import 'default.css';
-
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/FuturaPT-Light.woff2') format('woff2'),
-        url('../fonts/FuturaPT-Light.woff') format('woff'),
-        url('../fonts/FuturaPT-Light.ttf') format('truetype');
+    src: url('../fonts/FuturaPT-Light.woff2') format('woff2'), url('../fonts/FuturaPT-Light.woff') format('woff'), url('../fonts/FuturaPT-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -19,9 +16,7 @@
 
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
-        url('../fonts/FuturaPT-Medium.woff') format('woff'),
-        url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'), url('../fonts/FuturaPT-Medium.woff') format('woff'), url('../fonts/FuturaPT-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -29,9 +24,7 @@
 
 @font-face {
     font-family: 'Futura PT Cond Extra';
-    src: url('../fonts/FuturaPTCond-ExtraBold.woff2') format('woff2'),
-        url('../fonts/FuturaPTCond-ExtraBold.woff') format('woff'),
-        url('../fonts/FuturaPTCond-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/FuturaPTCond-ExtraBold.woff2') format('woff2'), url('../fonts/FuturaPTCond-ExtraBold.woff') format('woff'), url('../fonts/FuturaPTCond-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -39,9 +32,7 @@
 
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
-        url('../fonts/FuturaPT-Bold.woff') format('woff'),
-        url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+    src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'), url('../fonts/FuturaPT-Bold.woff') format('woff'), url('../fonts/FuturaPT-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -75,7 +66,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-
     color: #333333;
 }
 
@@ -117,7 +107,6 @@
     -ms-flex-align: center;
     align-items: center;
     margin-right: 20px;
-
 }
 
 .circle:before {
@@ -179,15 +168,11 @@
     margin: auto;
 }
 
-
-
-
 .header_bottom {
     background: #FFFFFF;
     border: 1px solid #F3F3F3;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-
 }
 
 .header_bottom .container {
@@ -200,7 +185,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
 }
 
 .header_bottom .navbar .header_link {
@@ -220,7 +204,6 @@
     -ms-transform: translateX(0);
     transform: translateX(0);
     visibility: visible;
-
 }
 
 .header_bottom .navbar .header_link:nth-child(2):hover~.active {
@@ -228,7 +211,6 @@
     -ms-transform: translateX(110px);
     transform: translateX(110px);
     visibility: visible;
-
 }
 
 .header_bottom .navbar .header_link:nth-child(3):hover~.active {
@@ -236,7 +218,6 @@
     -ms-transform: translateX(240px);
     transform: translateX(240px);
     visibility: visible;
-
 }
 
 .header_bottom .navbar .header_link:nth-child(4):hover~.active {
@@ -244,7 +225,6 @@
     -ms-transform: translateX(380px);
     transform: translateX(380px);
     visibility: visible;
-
 }
 
 .header_bottom .navbar .header_link:nth-child(5):hover~.active {
@@ -252,7 +232,6 @@
     -ms-transform: translateX(550px);
     transform: translateX(550px);
     visibility: visible;
-
 }
 
 .header_bottom .navbar .header_link:nth-child(6):hover~.active {
@@ -290,7 +269,6 @@
 .header_bottom .navbar {
     margin-left: 100px;
     position: relative;
-
 }
 
 .header_bottom {
@@ -500,7 +478,6 @@
     position: relative;
 }
 
-
 .services .services_inner .carousel .item img {
     margin: 0 auto;
     display: block;
@@ -519,7 +496,6 @@
     padding-top: 10px;
     margin: 0 auto;
 }
-
 
 .btn_btn.last {
     -webkit-transform: rotate(180deg);
@@ -651,7 +627,6 @@
     left: 35px;
     top: 0;
     bottom: 0;
-
 }
 
 .carousel_thumb .carousel_right .carousel_link.black {
@@ -666,7 +641,6 @@
     background-position: center;
     position: relative;
     background-size: cover;
-
 }
 
 .subscribe_section .subscribe_inner {
@@ -688,7 +662,6 @@
 
 .subscribe_section .left {
     margin-left: 15%;
-
 }
 
 .subscribe_section .left .subscribe_heading {
@@ -757,7 +730,6 @@
     position: absolute;
     right: -94px;
     top: -135px;
-
 }
 
 .subscribe_section {
@@ -892,7 +864,6 @@
 
 .related .related_group .related_item.md .right {
     padding: 30px 30px 0 30px;
-
 }
 
 .related .related_group .related_item.md .right_top {
@@ -991,7 +962,6 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 62px;
-
     color: #FFFFFF;
     margin-bottom: 14px;
     display: block;
@@ -1049,7 +1019,6 @@ textarea:focus {
     color: #949494;
 }
 
-
 .inner_content .hero_btn:hover {
     background: #FFBD54;
     border-radius: 3px;
@@ -1074,7 +1043,6 @@ textarea:focus {
     background: #FFBD54;
     border-radius: 3px;
     color: #333333;
-
 }
 
 .carousel_right .carousel_link:nth-child(2):active {
@@ -1099,12 +1067,10 @@ textarea:focus {
     border-radius: 5px;
 }
 
-
 .subscribe_inner form button:active {
     opacity: 0.6;
     outline: none;
 }
-
 
 .carousel .item:hover {
     opacity: 0.8;
@@ -1121,32 +1087,26 @@ textarea:focus {
 
 #related:hover .item_link {
     color: #FFBD54;
-
 }
 
 #related:active .item_link {
     color: #333333;
-
 }
 
 #related:active {
     -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-
 }
 
 .section_contact .right form button:hover {
     background: #333333;
     border-radius: 3px;
     color: #FFBD54;
-
 }
 
 .section_contact .right form button:active {
     opacity: 0.8;
     outline: none;
-
 }
 
 footer {
@@ -1162,11 +1122,8 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-
     -webkit-box-align: start;
-
     -ms-flex-align: start;
-
     align-items: flex-start
 }
 
@@ -1253,18 +1210,16 @@ footer {
 
 .column a:hover {
     color: #FFBD54;
-
 }
 
 .column a:active {
     color: rgba(51, 51, 51, 0.7);
-
 }
 
 iframe {
     height: 100%;
-
 }
+
 
 /* Contact */
 
@@ -1275,10 +1230,8 @@ iframe {
 .section-contact {
     padding-top: 118px;
     background-image: url(../images/kisspng-shar-pei-puppy-veterinarian-pet-stethoscope-veterinarian-5aec41564db012\ 1.png), url(../images/Group\ 22.png);
-    background-size: 550px,
-        1000px;
-    background-position: right top,
-        70% 95%;
+    background-size: 550px, 1000px;
+    background-position: right top, 70% 95%;
     padding-bottom: 60px;
     background-repeat: no-repeat;
 }
@@ -1307,7 +1260,6 @@ iframe {
     margin-right: 118px;
     margin-bottom: 258px;
 }
-
 
 .section-contact__bottom .bottom-item .bottom-item__text {
     font-style: normal;
@@ -1368,14 +1320,12 @@ iframe {
     left: 10px;
 }
 
-
 .heading .header-inner {
     padding: 118px 0 140px 0;
     background-image: url('../images/qush.png');
     background-repeat: no-repeat;
     background-position: right center;
 }
-
 
 .heading .header-inner .heading-left__text {
     width: 447px;
@@ -1445,7 +1395,6 @@ iframe {
     color: #FFFFFF;
 }
 
-
 .block:nth-child(odd) .block__link {
     background: #FFBD54;
 }
@@ -1478,7 +1427,6 @@ iframe {
     border-radius: 30%;
     background: rgba(255, 255, 255, 0.8);
     z-index: 1;
-
     transition: 0.3s all ease-out;
 }
 
@@ -1636,7 +1584,6 @@ iframe {
     background: #000;
     padding: 14px 60px;
     border: 2px solid transparent;
-
     background: #000000;
     color: #FFFFFF;
 }
