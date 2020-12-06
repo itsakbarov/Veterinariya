@@ -6,6 +6,7 @@
 */
 
 @import 'default.css';
+
 @font-face {
     font-family: 'Futura PT';
     src: url('../fonts/FuturaPT-Light.woff2') format('woff2'), url('../fonts/FuturaPT-Light.woff') format('woff'), url('../fonts/FuturaPT-Light.ttf') format('truetype');
@@ -1598,4 +1599,45 @@ iframe {
 
 .modal-inner {
     display: flex;
+}
+
+#popup {
+    width: 335px;
+    height: 131px;
+    position: absolute;
+    display: flex;
+    top: 40px;
+    transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1) all;
+    padding: 36px 30px 43px 36px;
+    box-sizing: border-box;
+    z-index: 999;
+    right: -460px;
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.09);
+    background: #FFFFFF;
+    /* transform: translateX(460px); */
+}
+
+#popup.active {
+    right: 40px;
+    transform: translateX(0px);
+
+}
+
+.pop-up-text {
+    font-style: normal;
+    font-weight: 450;
+    margin-left: 40px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #333333;
+    position: relative;
+}
+
+.pop-close {
+    position: relative;
+}
+
+.pop-close span {
+    position: absolute;
+    top: -20px;
 }

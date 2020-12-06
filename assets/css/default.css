@@ -12,5 +12,6 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Futura PT';
+    overflow-x: hidden;
     background: #f9f9f9 url('../images/bg.png')
 }
