@@ -1245,6 +1245,10 @@ iframe {
     margin-bottom: 27px;
     color: #333333;
 }
+.section-contact .section-contact__top {
+    width: 85%;
+    margin: 0 auto;
+}
 
 .section-contact .section-contact__top .top-subtitle {
     font-style: normal;
