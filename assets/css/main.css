@@ -1245,6 +1245,7 @@ iframe {
     margin-bottom: 27px;
     color: #333333;
 }
+
 .section-contact .section-contact__top {
     width: 85%;
     margin: 0 auto;
@@ -1608,9 +1609,11 @@ iframe {
 #popup {
     width: 335px;
     height: 131px;
-    position: absolute;
+    border-left: 7px solid #FECB3E;
+    position: fixed;
     display: flex;
     top: 40px;
+    border-radius: 5px;
     transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1) all;
     padding: 36px 30px 43px 36px;
     box-sizing: border-box;
@@ -1644,4 +1647,159 @@ iframe {
 .pop-close span {
     position: absolute;
     top: -20px;
+}
+
+.about-hero__inner {
+    padding: 117px 0;
+    background: url(../images/lapalar.png), url(../images/about-hero.png);
+    background-position: left 70%, right;
+    background-repeat: no-repeat;
+    background-size: 55%, contain;
+}
+
+.about-hero__inner .hero-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 64px;
+    padding-left: 95px;
+    margin-bottom: 22px;
+    color: #333333;
+}
+
+.about-hero__inner .hero-text {
+    font-style: normal;
+    margin-bottom: 145px;
+    width: 411px;
+    padding-left: 95px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.centered-link {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.clinic-inner {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clinic-inner .clinic-left {
+    width:45%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.clinic-inner .clinic-right {
+    width:50%;
+    padding: 127px 88px 140px 88px;
+}
+
+.clinic-right .clinic-right__Text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+
+}
+
+.clinic-right .clinic-right__Text span{
+    color: #FFC349
+}
+.nursery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+    align-items: center;
+}
+.nursery-left{
+    width: 50%;
+    padding: 103px 0 200px 362px;
+}
+
+.nursery-left__text {
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 494px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.nursery-left__text span {
+    color: #75BEE0;
+}
+.pagination .up {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+.pagination .down{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #949494;
+}
+.carousel{
+    display: flex;
+    margin-bottom: 145px;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel .carousel-left .carosel-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 48px;
+    color: #333333;
+    width: 416px;
+    margin-bottom: 24px;
+}
+.carousel .carousel-left .carousel-text {
+ font-style: normal;
+ width: 343px;
+ margin-bottom: 88px;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 20px;
+ color: #949494;
+ }
+
+ .carousel #carousel_button {
+     width: 50px;
+     height: 50px;
+ }
+
+ .carousel #carousel_button:nth-child(2) {
+    margin-right: 75px;
+    }
+ .carousel-left .carousel-bottom .carousel-bottom__left{
+     display: flex;
+ }
+.carousel .carousel-left .carosel-title span{
+    color: #FFC349;
+}
+.carousel .carousel-left{
+    padding-left: 362px;
+}
+.carousel .carousel-right{
+    overflow: scroll;
+    display: flex;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    display: none;
 }
