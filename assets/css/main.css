@@ -1225,6 +1225,7 @@ iframe {
 
 .section-contact__bottom {
     display: flex;
+    padding-left: 77px;
 }
 
 .section-contact {
